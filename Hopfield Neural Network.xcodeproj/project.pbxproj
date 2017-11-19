@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		7A5D9F151FC217D800EE6A5A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5D9F141FC217D800EE6A5A /* main.swift */; };
+		7A5D9F201FC218CA00EE6A5A /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5D9F1F1FC218CA00EE6A5A /* Array.swift */; };
+		7A5D9F221FC2258C00EE6A5A /* ActivationFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5D9F211FC2258C00EE6A5A /* ActivationFunction.swift */; };
+		7A5D9F251FC2260100EE6A5A /* HopfieldNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5D9F241FC2260100EE6A5A /* HopfieldNetwork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		7A5D9F111FC217D800EE6A5A /* Hopfield Neural Network */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Hopfield Neural Network"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A5D9F141FC217D800EE6A5A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7A5D9F1F1FC218CA00EE6A5A /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		7A5D9F211FC2258C00EE6A5A /* ActivationFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivationFunction.swift; sourceTree = "<group>"; };
+		7A5D9F241FC2260100EE6A5A /* HopfieldNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HopfieldNetwork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,28 @@
 		7A5D9F131FC217D800EE6A5A /* Hopfield Neural Network */ = {
 			isa = PBXGroup;
 			children = (
+				7A5D9F241FC2260100EE6A5A /* HopfieldNetwork.swift */,
+				7A5D9F231FC2258F00EE6A5A /* Utils */,
+				7A5D9F1E1FC218BE00EE6A5A /* Extensions */,
 				7A5D9F141FC217D800EE6A5A /* main.swift */,
 			);
 			path = "Hopfield Neural Network";
+			sourceTree = "<group>";
+		};
+		7A5D9F1E1FC218BE00EE6A5A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7A5D9F1F1FC218CA00EE6A5A /* Array.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7A5D9F231FC2258F00EE6A5A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7A5D9F211FC2258C00EE6A5A /* ActivationFunction.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A5D9F151FC217D800EE6A5A /* main.swift in Sources */,
+				7A5D9F251FC2260100EE6A5A /* HopfieldNetwork.swift in Sources */,
+				7A5D9F221FC2258C00EE6A5A /* ActivationFunction.swift in Sources */,
+				7A5D9F201FC218CA00EE6A5A /* Array.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

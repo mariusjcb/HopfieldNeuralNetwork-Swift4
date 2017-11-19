@@ -8,5 +8,12 @@
 
 import Foundation
 
-print("Hello, World!")
+let p1 = [1, 0, 1, 0.0]
+let p2 = [1, 1, 0, 0.0]
 
+let p3 = [1, 0, 1, 1.0]
+
+var hop = HopfieldNetwork(dimension: 4)
+hop.train(withPatterns: [p1, p2])
+
+print(hop.check(pattern: p3))
